@@ -11,9 +11,9 @@ variables:
 
 # Github Variables
     # Org name of the github org
-  GITHUB-ORG-NAME: ai-factory-azure
+  GITHUB-ORG-NAME: yaruyi
     # Org URL for the github org where the github project is / will be hosted
-  GITHUB-ORG-URL: https://github.com/ai-factory-azure
+  GITHUB-ORG-URL: https://github.com/yaruyi
     # Name for the Github Service connection endpoint
   GITHUB-SERVICE-ENDPOINT-NAME: Github-Service-Endpoint
     # URL for the code template
@@ -21,7 +21,7 @@ variables:
     # for batch & file, choose https://github.com/ai-factory-azure/project-template-file-batch-code
     # for realtime & tabular, choose https://github.com/ai-factory-azure/project-template-tabular-realtime-code
     # for realtime & batch, choose https://github.com/ai-factory-azure/project-template-file-realtime-code
-  CODE-TEMPLATE: https://github.com/ai-factory-azure/project-template-file
+  CODE-TEMPLATE: https://github.com/yaruyi/project-template-file
 
 # Pipeline variables
     # Name for the Infrastructure as Code pipeline
@@ -29,7 +29,7 @@ variables:
     # Description for the IAC pipeline
   IAC-PIPELINE-DESCRIPTION: Pipeline for MNIST Project
     # Repository url for the IAC repo
-  IAC-TEMPLATE:  https://github.com/ai-factory-azure/templates-iac 
+  IAC-TEMPLATE:  https://github.com/yaruyi/templates-iac 
     # IAC Branch for creating the pipeline
   IAC-BRANCH:  main    
     # Pipeline YML path
